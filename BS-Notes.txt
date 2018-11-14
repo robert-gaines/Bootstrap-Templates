@@ -1,0 +1,185 @@
+/* Bootstrap */
+
+-> Open source front-end framework for fast web development
+-> Pre-made HTML/CSS templates and classes
+-> JavaScript widgets and plugins
+
+/* Installation */
+
+-> CDN
+-> Download and Include
+-> Package Manager - NPM/Yarn
+
+/* Features */
+
+-> Grid System
+-> Text & Typography
+-> Positioning
+-> Spacing
+-> Sizing
+-> Alignment
+-> Colors
+-> Images
+-> Responsive Utilities
+-> Shadows * Borders
+
+/* CSS Components */
+
+-> Forms and input groups
+-> Tables
+-> List groups
+-> Cards
+-> Progress Bars
+-> Alerts
+-> Navbar & Menus
+-> Buttons and Button groups
+-> Media Objects
+-> Jumbotron
+-> Badges
+
+/* JS Widgets */
+
+-> Carousel Sliders
+-> Collapsible Accordions
+-> Modals
+-> Tooltips
+-> Scrollspy
+-> Popovers
+
+--------------------------------------------------------------------------------
+
+/* Editor Notes */
+
+-> Plugins: Emmet
+            LiveServer
+            Prettier
+
+-> Emmet
+    - ! : for HTML
+    - tag#id : for id 
+    - tag.class : for class 
+    - <tag> * n 
+    - lorem(n) : for filler 
+
+-> Live Server 
+    - Go Live via VS Code Toolbar 
+
+--------------------------------------------------------------------------------
+
+/* CDN Links */
+
+-> CSS:
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+-> JS:
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+--------------------------------------------------------------------------------
+
+/* Headings and Basic Typography */
+
+-> rem/em - font size multiplier 
+-> em : Parent Element Font Size 
+
+
+-> H1 -> Class: display-1 through display-4
+-> <p> -> Class: "lead"
+    -> Increases Font Size (1.25) and Weight 
+    -> Class: bold
+-> Text Class: Font-Monospace , Font-Italic, Font-Weight-bold
+-> Text-Class: lowercase, uppercase, capitalize, text-truncate
+-> Text: Blockquote
+
+-> Lists:
+    -> list-unstyled
+    -> list-inline / list-inline-item
+
+ --------------------------------------------------------------------------------
+
+ /* Text and Alignment */
+
+-> text-justify -> class
+-> Alignment: text-left, text-center, text-right
+
+<!-- Responsive Alignment -->
+
+-> text-sm-right 
+-> Screen Sizes:
+    - xs 
+    - sm
+    - md 
+    - lg 
+    - xl 
+-> Format: text-size-position 
+-> Changes with the breakpoint 
+
+<!-- Vertical Alignment -->
+
+-> Spans : inline elements 
+-> align-baseline
+-> align-top 
+-> align-middle
+-> align-bottom 
+-> align-text-top 
+-> align-text-bottom 
+
+<!-- Display Classes --> 
+
+-> d-inline # displays as inline
+-> d-block # displays as block 
+-> d-inline-block # inline block 
+
+--------------------------------------------------------------------------------
+
+/* Floats and Positioning */
+
+-> Class:
+    -float-left
+    -float-right
+    -float-none
+    -float-size-position (responsive floats)
+    -clearfix
+    -fixed-top
+    -fixed-bottom
+
+--------------------------------------------------------------------------------
+
+/* Background and Colors */
+
+-> Classes:
+    - bg-primary
+    - bg-secondary
+    - bg-light
+    - bg-warning
+    - bg-danger
+
+    - text-secondary
+    - text-primary 
+    - text-warning
+    - text-light
+    - text-muted
+
+--------------------------------------------------------------------------------
+
+/* Margin Padding & Spacing */
+            
+-> Margin : External
+-> Padding : Internal 
+
+-> Classes:
+    -> mb-n 
+    -> mt-n 
+    -> mx-n  
+    -> my-n
+    -> m-n 
+    -> pb-n 
+    -> pt-n 
+    -> px-n (left/right)
+    -> py-n (left/right)
+    -> mx-auto 
+
+--------------------------------------------------------------------------------
